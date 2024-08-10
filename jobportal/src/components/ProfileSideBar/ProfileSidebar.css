@@ -1,0 +1,32 @@
+/* src/components/ProfileSidebar/ProfileSidebar.css */
+.profile-sidebar {
+  width: 25%;
+  background-color: #fff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.complete-profile-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.profile-performance {
+  margin-top: 20px;
+}

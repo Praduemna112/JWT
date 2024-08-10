@@ -1,0 +1,54 @@
+/* Header.css */
+
+/* Ensure the header is positioned at the top and spans the full width */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  /* Ensure it's above other content */
+}
+
+/* Adjust navbar background and text color */
+header .navbar {
+  background-color: #f8f9fa !important;
+  /* Light grey background */
+}
+
+/* Custom brand/logo styling */
+header .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navbar link styles */
+header .nav-link {
+  font-size: 1rem;
+  color: #333 !important;
+  /* Dark grey text */
+}
+
+header .nav-link:hover {
+  color: #007bff !important;
+  /* Blue on hover */
+}
+
+/* Search button styling */
+header .btn-outline-success {
+  border-color: #007bff !important;
+  color: #007bff !important;
+}
+
+header .btn-outline-success:hover {
+  background-color: #007bff !important;
+  color: #fff !important;
+}
+
+/* Adjust the padding of the main content to account for the fixed header */
+main {
+  padding-top: 60px;
+  /* Adjust based on the header height */
+}
+
+

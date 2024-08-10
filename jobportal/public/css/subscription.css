@@ -1,0 +1,38 @@
+/* SubscriptionList.css */
+
+.table-container {
+  margin-top: 2rem; /* Space above the table */
+}
+
+.table-heading {
+  margin-bottom: 1.5rem; /* Space below the heading */
+}
+
+.table {
+  margin-bottom: 2rem; /* Space below the table */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9; /* Lighter background for odd rows */
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6; /* Border color for the table */
+}
+
+.table thead th {
+  background-color: #343a40; /* Dark background for the table header */
+  color: white; /* White text color for the table header */
+}
+
+.alert-info {
+  margin-bottom: 1rem; /* Space below the alert */
+}
+
+.alert-danger {
+  margin-bottom: 1rem; /* Space below the alert */
+}
+
+.alert-warning {
+  margin-bottom: 1rem; /* Space below the alert */
+}

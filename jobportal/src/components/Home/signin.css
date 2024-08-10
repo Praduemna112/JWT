@@ -1,0 +1,28 @@
+/* src/components/SignIn/SignIn.css */
+
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  padding: 20px;
+  background-color: #f0f2f5; /* Optional: Light background color */
+}
+
+.signin-container form {
+  width: 100%;
+  max-width: 400px; /* Adjust width as needed */
+  background-color: #ffffff; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
+
+.signin-container h2 {
+  margin-bottom: 20px;
+}
+
+.alert {
+  margin-bottom: 15px;
+}

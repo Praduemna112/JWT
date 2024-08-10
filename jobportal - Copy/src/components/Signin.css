@@ -1,0 +1,73 @@
+/* SignInPage.css */
+.signin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.signin-page h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.signin-form {
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-signin,
+.btn-cancel {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-signin {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-signin:hover {
+  background-color: #0056b3;
+}
+
+.btn-cancel {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.btn-cancel:hover {
+  background-color: #e9ecef;
+}
